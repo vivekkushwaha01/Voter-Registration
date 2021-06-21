@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    /* border: 1px solid red; */
+    padding: 5px;
+    background-color: black;
+    /* background-color: rgb(59, 57, 57); */
+    min-height: 8.5vh;
+}
+
+nav {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_part,
+.right_part {
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+}
+
+/* .image img{
+border: 1px solid orange;
+
+} */
+
+.heading {
+    /* border: 1px solid hotpink; */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.center_part {
+    /* border: 3px solid black; */
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading p {
+    font-size: xx-large;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+
+/* ---------------------------------------main css----------------------------- */
+
+main {
+    min-height: calc(100vh - 8.5vh);
+}
+
+.main_box1 {
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 15px 25px;
+    border-radius: 3px;
+}
+
+/* .box1_left_box {
+border: 1px solid blue;
+} */
+
+.box1_btn {
+    border: 1px solid dodgerblue;
+    /* width:60px; */
+    color: white;
+    background-color: gray;
+    padding: 2px 20px;
+    border-radius: 3px;
+}
+
+.box1_btn:hover {
+    cursor: pointer;
+    background-color: dodgerblue;
+    color: white;
+}
+
+/* .box1_right_box {
+border: 1px solid blue;
+} */
+
+
+.big_box {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.small_box {
+    background-color: hsl(0, 0%, 81%);
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.txt {
+    background-color: hsl(0, 70%, 69%);
+    padding: 20px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+.txt1 {
+    background-color: gray;
+    font-weight: bold;
+}
+
+/* -----------------------------Footer CSS------------------------- */
+footer {
+    /* background-color: rgb(59, 57, 57); */
+    background-color: black;
+    padding: 25px;
+    margin-top: 5px;
+}
+
+.foot {
+    /* border:1px solid red; */
+    text-align: center;
+    color: white;
+
+}
+
+.info {
+    /* border: 1px solid blue; */
+    margin: 10px 5px;
+    line-height: 35px;
+}
+
+.info_box {
+    /* border: 1px solid violet; */
+    margin: 5px 50px;
+    font-size: small;
+}
+
+input {
+    text-align: center;
+}
+
+.get_input_btn {
+    background-color: gray;
+    padding: 6px 20px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+
+}
+
+.captcha_img {
+    border: 1px solid black;
+    margin-top: 3px;
+}
+
+.last_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last_box input {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+}
